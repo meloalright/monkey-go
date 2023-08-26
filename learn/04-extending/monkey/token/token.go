@@ -47,6 +47,13 @@ const (
 
 	EQ     = "=="
 	NOT_EQ = "!="
+
+	STRING = "STRING"
+
+    LBRACKET = "["
+    RBRACKET = "]"
+
+	COLON = ":"
 )
 
 var keywords = map[string]TokenType{
