@@ -5,8 +5,6 @@ import (
 	"testing"
 )
 
-// Macros system can be divided into two broad categories: text-substitution macro systems and syntactic macro systems
-
 func TestString(t *testing.T) {
 	program := &Program{
 		Statements: []Statement{
